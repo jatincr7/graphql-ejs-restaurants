@@ -1,0 +1,13 @@
+/* ... (previous styles) ... */
+
+/* Style the footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
+}

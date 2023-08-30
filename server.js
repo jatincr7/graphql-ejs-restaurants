@@ -36,7 +36,7 @@ const root = {
     restaurants:()=>restaurants
 };
 
-
+app.use('/public', express.static('public'));
 
 // EJS view engine setup
 app.set('views', path.join(__dirname, 'views'));
