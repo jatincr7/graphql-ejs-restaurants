@@ -1,9 +1,13 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Restaurant List</title>
+
 </head>
-<body>
+<body class="container">
+
+<header>
+  <%- include('partials/header.ejs') %>
   <h1>Restaurant List</h1>
   <ul>
     <% restaurants.forEach(restaurant => { %>
@@ -14,5 +18,16 @@
       </li>
     <% }); %>
   </ul>
+</header>
+
+<main>
+ 
+  </div>
+</main>
+
+<footer>
+  <%- include('partials/footer.ejs') %>
+</footer>
+
 </body>
 </html>
