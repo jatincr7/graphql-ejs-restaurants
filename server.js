@@ -8,8 +8,13 @@ const path = require('path');
 const app = express();
 
 const restaurants = [
-    { id: 1, name: 'Restaurant A', description: 'Delicious food', rating: 4.5 },
-    { id: 2, name: 'Restaurant B', description: 'Great ambiance', rating: 4.0 },
+    { id: 1, name: 'Thindi Caffe', description: 'Vadda Pav,Masala Tea', rating: 4.5 },
+  { id: 2, name: 'The Village of India', description: 'Buffai ', rating: 4.1 },
+  { id: 2, name: 'The Andhra Place', description: 'Dosa ', rating: 4.2 },
+  { id: 2, name: 'The Hut', description: 'Sandwitches', rating: 5 },
+  { id: 2, name: 'The Boston Pizza', description: 'Pizza ', rating: 4.7 },
+  { id: 2, name: 'Riyasat', description: 'Butter Chicken ', rating: 4.8 },
+  { id: 2, name: 'Jai Bhavani', description: 'Vada Pav ', rating: 4.5 },
 
 ];
 // GraphQL schema
