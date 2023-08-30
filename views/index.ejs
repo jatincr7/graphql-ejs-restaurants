@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant List</title>
+</head>
+<body>
+  <h1>Restaurant List</h1>
+  <ul>
+    <% restaurants.forEach(restaurant => { %>
+      <li>
+        <h2><%= restaurant.name %></h2>
+        <p><%= restaurant.description %></p>
+        <p>Rating: <%= restaurant.rating %></p>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>

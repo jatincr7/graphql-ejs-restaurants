@@ -1,0 +1,27 @@
+{
+  "name": "graphql-ejs-restaurants",
+  "version": "1.0.0",
+  "description": "This is a simple Node.js application that demonstrates how to integrate GraphQL for data retrieval and perform server-side rendering using EJS templating. The application displays a list of restaurants along with their details.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatincr7/graphql-ejs-restaurants.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jatincr7/graphql-ejs-restaurants/issues"
+  },
+  "homepage": "https://github.com/jatincr7/graphql-ejs-restaurants#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  }
+}
